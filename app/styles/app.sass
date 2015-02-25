@@ -1,5 +1,67 @@
 .root-container
   max-width: 90%
 
+.main-content
+  padding-top: 15px
+
 .sidebar
   background-color: gray
+  position: fixed
+  top: 0
+  bottom: 0
+  right: 5%
+  width: 37.5% // 90% * 41.667%
+  padding: 15px
+
+
+
+
+.post
+  width: 100%
+  min-height: 70px
+  margin-bottom: 12px
+  position: relative
+
+.post-vote
+  position: absolute
+  width: 30px
+  left: 0
+  top: 0
+  bottom: 0
+  text-align: center
+  padding: 8px 0
+  // background-color: green
+
+.post-info
+  margin-left: 40px
+  margin-right: 80px
+  // background-color: red
+  padding: 7px 0
+
+.post-info-title
+  font-size: 17px
+
+.post-ext
+  position: absolute
+  width: 70px
+  right: 0
+  top: 0
+  bottom: 0
+  background-color: orange
+
+
+
+
+.vote-triangle
+  width: 0;
+  height: 0;
+
+.vote-up
+  border-style: solid;
+  border-width: 0 15px 16px 15px;
+  border-color: transparent transparent gray transparent;
+
+.vote-down
+  border-style: solid;
+  border-width: 16px 15px 0 15px;
+  border-color: gray transparent transparent transparent;
