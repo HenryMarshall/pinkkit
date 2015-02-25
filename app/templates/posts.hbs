@@ -1,0 +1,24 @@
+<ul class="list-unstyled">
+  {{#each post in model}}
+    <li class="post">
+      <section class="post-vote post-section">
+        <div class="vote-up vote-triangle"></div>
+        <div class="vote-count">{{post.score}}</div>
+        <div class="vote-down vote-triangle"></div>
+      </section>
+
+      <section class="post-info post-section">
+        <a class="post-info-title" href="#">{{post.title}}</a>
+        <p>
+          Submitted 3 days ago
+          to {{post.subreddit}}
+          by {{post.author}}
+        </p>
+      </section>
+
+      <section class="post-ext post-section">
+        <a href="#">Ext</a>
+      </section>
+    </li>
+  {{/each}}
+</ul>
