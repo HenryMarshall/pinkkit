@@ -1,12 +1,10 @@
 <div class="container-fluid root-container">
   <div class="row">
     <div class="col-xs-7 main-content">
-      <h3>main content</h3>
       {{outlet}}
     </div>
 
-    <div class="col-xs-5 sidebar">
-      <h3>sidebar</h3>
+    <div class="sidebar">
       {{outlet 'sidebar'}}
     </div>
   </div>
